@@ -1,0 +1,33 @@
+name: hangman
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  flutter_riverpod: ^2.5.1
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Josefin
+      fonts:
+        - asset: assets/fonts/JosefinSans.ttf
